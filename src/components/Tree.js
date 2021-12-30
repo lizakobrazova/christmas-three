@@ -9,9 +9,11 @@ title: Low Poly Decorated Christmas Tree with Presents
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
+const pathToGltf = `${process.env.PUBLIC_URL}/tree.gltf`
+
 export default function Model({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/tree.gltf')
+  const { nodes, materials } = useGLTF(pathToGltf)
   return (
     <group ref={group} {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
@@ -88,4 +90,4 @@ export default function Model({ ...props }) {
   )
 }
 
-useGLTF.preload('/tree.gltf')
+useGLTF.preload(pathToGltf)
