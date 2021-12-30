@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/christmas-three/static/css/main.754ebb54.css",
+    "main.js": "/christmas-three/static/js/main.d32a2c36.js",
+    "index.html": "/christmas-three/index.html",
+    "main.754ebb54.css.map": "/christmas-three/static/css/main.754ebb54.css.map",
+    "main.d32a2c36.js.map": "/christmas-three/static/js/main.d32a2c36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.754ebb54.css",
+    "static/js/main.d32a2c36.js"
+  ]
+}
